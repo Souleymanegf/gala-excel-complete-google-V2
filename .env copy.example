@@ -1,0 +1,31 @@
+# Serveur
+PORT=3001
+CORS_ORIGIN=http://localhost:5173
+
+# Mot de passe de l'espace administrateur
+ADMIN_PASSWORD=CHANGE_ME_TO_A_LONG_RANDOM_PASSWORD
+
+# Adresse qui reçoit les notifications
+CONTACT_EMAIL=your-admin@gmail.com
+
+# Gmail SMTP
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_SECURE=false
+SMTP_USER=your-gmail@gmail.com
+SMTP_PASS=YOUR_GMAIL_APP_PASSWORD
+SMTP_FROM=Gala Black Excellence <your-gmail@gmail.com>
+
+# Google Cloud / compte de service
+GOOGLE_SERVICE_ACCOUNT_EMAIL=your-service-account@your-project.iam.gserviceaccount.com
+
+# IMPORTANT : conserver les \n dans cette variable.
+GOOGLE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nYOUR_PRIVATE_KEY\n-----END PRIVATE KEY-----\n"
+
+# ID du Google Sheet contenant la feuille "Candidatures"
+GOOGLE_SHEET_ID=YOUR_GOOGLE_SHEET_ID
+
+# ID du dossier Google Drive "Gala Black Excellence 2027"
+GOOGLE_DRIVE_FOLDER_ID=YOUR_GOOGLE_DRIVE_FOLDER_ID
+
+GOOGLE_SHEET_NAME=Candidatures

@@ -16,10 +16,10 @@
     "dotenv": "^16.4.7",
     "exceljs": "^4.4.0",
     "express": "^4.21.2",
+    "googleapis": "^144.0.0",
     "nodemailer": "^10.0.10",
     "react": "^19.3.0",
-    "react-dom": "^19.3.0",
-    "googleapis": "^144.0.0"
+    "react-dom": "^19.3.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.4.1",
